@@ -7,8 +7,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class TipoDocumentoDTO {
-    private Long idTipoDocumento;
+public class TipoCombustibleDTO {
+    private Long idTipoCombustible;
     private String codigo;
     private String descripcion;
     private Boolean estado;
